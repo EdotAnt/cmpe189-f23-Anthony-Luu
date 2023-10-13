@@ -107,7 +107,7 @@ int main (int argc, char *argv[])
   //Set the random seed value
   RngSeedManager::SetSeed (3);  
   
-  GnuplotCollection gnuplots ("rxPower-pdf-random.pdf");
+  GnuplotCollection gnuplots ("rxPower-pdf-LogNormalShadowing.pdf");
 
   {
 	Gnuplot plot;
